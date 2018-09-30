@@ -13,8 +13,8 @@ char password[] = "pg"; // password of SSID
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
  
-int Bot_mtbs = 50; //Tiempo medio entre el escaneo de mensajes
-long Bot_lasttime;   //exploracion de el ultimo mensaje
+int Bot_mtbs = 50;
+long Bot_lasttime;   
 bool Start = false;
 String chat_id2;
 bool flag = false;
